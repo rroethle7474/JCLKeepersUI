@@ -1,0 +1,23 @@
+/* jcl-keeper-uploader.component.css */
+.file-uploader {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-top: 100px;
+}
+
+.file-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.keeper-submit {
+  margin-top: 20px;
+}
+
+@media (max-width: 992px) {
+  #mainContent.navbar-expanded {
+    padding-top: 175px; /* Adjust for smaller screens */
+  }
+}

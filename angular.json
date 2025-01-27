@@ -73,10 +73,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "landsay:build:production"
+              "buildTarget": "landsay:build:production"
             },
             "development": {
-              "browserTarget": "landsay:build:development"
+              "buildTarget": "landsay:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -84,7 +84,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "landsay:build"
+            "buildTarget": "landsay:build"
           }
         },
         "test": {
